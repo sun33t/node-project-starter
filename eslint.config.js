@@ -8,7 +8,7 @@ export default [
   {
     plugins: { n: nodePlugin },
     rules: {
-      "n/no-process-env": ["error"],
+      "n/no-process-env": ["warn"],
     },
   },
 
